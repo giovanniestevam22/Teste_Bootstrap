@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.estilogiovanni{
+    background-color: yellow;    
+}
+.d-block{
+    height: 60%;
+}
+.cards{
+    display: grid;
+}
+.accordion-button {
+    background-color: #ffc107 !important; /* Amarelo */
+    color: #000 !important; /* Cor do texto para contraste */
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ffca2c !important; /* Amarelo mais claro quando aberto */
+    color: #000 !important;
+}
+.accordion-body {
+    background-color: #fff3cd !important; /* Fondo amarelo claro para o corpo */
+}
